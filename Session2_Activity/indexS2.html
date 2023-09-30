@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- 10 extra attributes:
+              1. hidden
+              2. iframe
+              3. translate
+              4. draggable
+              5. contenteditable
+              6. spellcheck
+              7. video 
+              8. autocapitalize
+              9. autocorrect
+             10. download-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+<h1>Lesson Proper</h1>
+ <!-- 2. iframe --> 
+  <iframe src="https://www.history.com/topics"
+  height="600" width="1200" sandbox="allow-scripts allow-same-origin">
+    This iframe has restricted permissions.
+</iframe>
+<br />
+<br />
+<!-- 3. translate -->
+<div translate="no">
+    This content will not be translated. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+    sunt in culpa qui officia deserunt mollit anim id est laborum..
+</div>
+<br />
+<!-- 4. draggable -->
+<div draggable="true">
+    This text can be dragged.
+</div>
+<br />
+<!-- 5. contenteeditable -->
+<div contenteditable="true">
+    This text can be edited.
+</div>
+<br />
+<!-- 6. spellcheck -->
+<input type="text" spellcheck="false" placeholder="No spellcheck here">
+
+<p><strong>Watch this video to learn more!</strong></p>
+<!-- 7. video -->
+<video src="https://www.youtube.com/watch?v=ha1NneZGm7A&ab_channel=BeginningToNow" controls></video>
+<br />
+<p><strong>Listen to this!</strong></p>
+<audio src="https://www.youtube.com/watch?v=HFUrbHUzDik&t=1110s&ab_channel=TanYi" controls></audio>
+<br />
+<button onclick="downloadPage()">Download This Page</button>
+</body>
+
+  </body>
+</html>
